@@ -1,0 +1,30 @@
+.controls {
+}
+
+.voting {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+
+button {
+  height: 4.5rem;
+  font-size: 2rem;
+  width: 13rem;
+}
+
+button:focus {
+  border-color: #000;
+  border-width: 0.25rem;
+}
+
+.retreat {
+  color: #FFF;
+  background-color: #B3000A;
+}
+
+.continue {
+  background-color: #0AB300;
+}
